@@ -2,8 +2,8 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import './components/navbar.jsx'
-import Navbar from './components/navbar.jsx'
+
+import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import Cards from './components/cards.jsx'
 import Journey from './components/Journey.jsx'
@@ -11,6 +11,7 @@ import Discover from './components/Discover.jsx'
 import Explore from './components/Explore.jsx'
 import Wonder from './components/Wonder.jsx'
 import Newsletter from './components/Newsletter.jsx'
+import Footer from './components/footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,5 +23,6 @@ createRoot(document.getElementById('root')).render(
     <Discover />
     <Explore />
     <Newsletter />
+    <Footer />
   </StrictMode>,
 )

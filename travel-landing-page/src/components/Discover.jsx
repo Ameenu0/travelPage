@@ -4,13 +4,13 @@ export default function Cards(){
     return(
         <section className="relative pt-5 pb-16 overflow-hidden bg-white">
             <h1 className="text-6xl font-black text-gray-900 text-center mb-8">Discover The World From Above</h1>
-            <p className="text-center">Traveling is a wonderful way to explore new places. Learn about different cultures and gain</p>
+            <p className="text-center px-10">Traveling is a wonderful way to explore new places. Learn about different cultures and gain</p>
 
             <div className="flex items-center gap-8 px-20 mt-6 flex-col lg:flex-row">
 
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                     <div className="h-48 overflow-hidden">
-                        <img src="https://i.pinimg.com/736x/7d/83/c5/7d83c5b60ee45f5949183aa587b665c4.jpg" alt="" className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
+                        <img src="https://i.pinimg.com/736x/70/fd/0c/70fd0c0d79ef6051192fb3c9d197ef67.jpg" alt="" className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
                     </div>
 
                     <div className="flex flex-col gap-4 p-5">
@@ -24,7 +24,7 @@ export default function Cards(){
 
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                     <div className="h-48 overflow-hidden">
-                        <img src="https://i.pinimg.com/736x/7d/83/c5/7d83c5b60ee45f5949183aa587b665c4.jpg" alt="" className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
+                        <img src="https://i.pinimg.com/736x/fd/7b/ec/fd7becf818dc6a4be682b5dc77a5b1e3.jpg" alt="" className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
                     </div>
 
                     <div className="flex flex-col gap-4 p-5">
@@ -38,7 +38,7 @@ export default function Cards(){
 
                 <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
                     <div className="h-48 overflow-hidden">
-                        <img src="https://i.pinimg.com/736x/7d/83/c5/7d83c5b60ee45f5949183aa587b665c4.jpg" alt="" className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
+                        <img src="https://i.pinimg.com/736x/34/a8/b9/34a8b96ee490128a9e249bf70ca17227.jpg" alt="" className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
                     </div>
 
                     <div className="flex flex-col gap-4 p-5">

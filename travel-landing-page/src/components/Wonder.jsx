@@ -2,22 +2,24 @@ import React from "react";
 
 export default function Wonder(){
     return(
-        <section className="relative pt-20 pb-25 overflow-hidden bg-white">
-            <div className="px-25 flex">
-                <div className="relative w-full">
-                    <img src="https://i.pinimg.com/736x/7d/83/c5/7d83c5b60ee45f5949183aa587b665c4.jpg" alt="" className="rounded-2xl shadow-2xl h-125 w-155 object-cover"/>
-                    <div className="absolute bg-white top-140 px-10 py-4 rounded-2xl right-2800 shadow-2xl">
-                        <h2 className="text-4xl font-semibold text-blue-600">20% OFF</h2>
-                        <p>Till 28 September <br />2026.</p>
+        <section className="relative py-16 bg-white">
+            <div className="max-w-7xl mx-auto px-6 lg:px-16 flex flex-col lg:flex-row items-center gap-12">
+    
+                <div className="relative w-full lg:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1546479906-2231699d4430?q=80&w=1142&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="w-full h-[400px] md:h-[500px] object-cover rounded-3xl shadow-xl"/>
+                    <div className="absolute bottom-6 left-6 bg-white/90 backdrop-blur-md px-6 py-4 rounded-2xl shadow-lg">
+                        <h2 className="text-2xl font-bold text-blue-600">20% OFF</h2>
+                        <p className="text-sm text-gray-600">Till 28 September 2026</p>
                     </div>
                 </div>
 
-                <div className="space-y-5">
-                    <p>TRAVELING IS A WONDERFUL WAY TO EXPLORE NEW PLACES. LEARN ABOUT DIFFERENT CULTURES</p>
-                    <h1 className="text-7xl font-black">UNLEASH <br />WANDERLUST <br /> WITH <br />SKEWING'S</h1>
-                    <p>Traveling is a wonderful experience</p>
-                    <h3 className="p-5 bg-gray-200 rounded-2xl text-center font-semibold">BOOK A FLIGHT NOW</h3>
+                <div className="w-full lg:w-1/2 space-y-6 text-center lg:text-left">
+                    <p className="text-sm uppercase tracking-widest text-blue-500 font-semibold">Explore The World</p>
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">Unleash Wanderlust <br className="hidden lg:block" />With Skewing's</h1>
+                    <p className="text-gray-600 max-w-lg mx-auto lg:mx-0">Traveling is a wonderful way to explore new places and learn about different cultures around the world.</p>
+                    <button className="px-8 py-4 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition duration-300 shadow-md">Book A Flight Now</button>
                 </div>
+
             </div>
         </section>
     )
